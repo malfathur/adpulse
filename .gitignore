@@ -1,0 +1,27 @@
+# Internal docs — local only (see af File Standards)
+*.md
+!README.md
+!CHANGELOG.md
+!MANUAL.md
+!.github/**/*.md
+!docs/**/*.md
+
+# Secrets — never commit real API keys
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Claude Code settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
