@@ -1,5 +1,7 @@
 # AdPulse — Marketing Performance Tool
 
+**Live demo:** https://adpulse.streamlit.app/
+
 AdPulse turns raw marketing exports into metrics, charts, benchmark grades,
 evidence-based recommendations, and an LLM-written report a campaign manager can
 act on — across paid social, paid search, SEO, organic social, and influencer
@@ -98,6 +100,8 @@ pytest
 Pure-function tests only — fast, deterministic, no Streamlit and no network.
 
 ## Deployment (Streamlit Cloud)
+
+Deployed at **https://adpulse.streamlit.app/**. To deploy your own:
 
 1. Push to GitHub.
 2. Create a new Streamlit Cloud app pointing at `app.py`.
